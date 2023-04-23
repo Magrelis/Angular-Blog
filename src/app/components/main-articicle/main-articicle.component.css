@@ -1,0 +1,39 @@
+.container__main-articicle{
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+  width: 600px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+
+
+}
+
+.main-articicle__title >h1{
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-articicle__description > p {
+  margin-top: 10px;
+  color: rgb(203, 205, 220);
+}
+
+.main-articicle__photo >img {
+  width: 100%;
+  min-width: 400px;
+}
+
+button{
+    background-color: blueviolet;
+    font-size: medium;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

@@ -7,6 +7,7 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MainArticicleComponent } from './components/main-articicle/main-articicle.component';
 import { MerchCardsComponent } from './components/merch-cards/merch-cards.component';
 import { SubArticiclesComponent } from './components/sub-articicles/sub-articicles.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SubArticiclesComponent } from './components/sub-articicles/sub-articicl
     MenuBarComponent,
     MainArticicleComponent,
     MerchCardsComponent,
-    SubArticiclesComponent
+    SubArticiclesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
