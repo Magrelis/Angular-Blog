@@ -1,15 +1,15 @@
 <div class="container__content">
-  <a href="http://localhost:4200/"> << Voltar </a>
+  <a [routerLink]="['']"> << Voltar </a>
   <div class="content__cover">
-    <img src="https://th.bing.com/th/id/OIP.EZSy7MjfJVHkCKOZX1wjvgHaEp?w=208&h=130&c=7&r=0&o=5&pid=1.7" alt="">
+    <img src="{{ FotoCover }}" alt="">
   </div>
   <div class="content__title">
-    <h1>Noticia</h1>
+    <h1>{{contentTitle}}</h1>
     <hr>
   </div>
   <div class="content__discription">
     <P>
-      OLA MUNDO
+      {{contentDescription}}
     </P>
   </div>
 
