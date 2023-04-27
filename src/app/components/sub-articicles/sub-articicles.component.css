@@ -1,0 +1,20 @@
+
+.container__sub-article-content {
+
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+.sub-article__photo {
+  width: 200px;
+  min-width: 300px;
+  margin-right: 50px;
+}
+
+.sub-article__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}

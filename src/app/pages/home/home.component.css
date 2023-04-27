@@ -1,3 +1,17 @@
-.container__articicles{
-  margin-top: 10px;
+.container__articles-right
+{
+  margin-top: 30px;
+  display: grid 2rem , 2rem;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.container__articles
+{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }

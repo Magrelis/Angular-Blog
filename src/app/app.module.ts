@@ -8,6 +8,7 @@ import { MainArticicleComponent } from './components/main-articicle/main-articic
 import { MerchCardsComponent } from './components/merch-cards/merch-cards.component';
 import { SubArticiclesComponent } from './components/sub-articicles/sub-articicles.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SmallCardsComponent } from './components/small-cards/small-cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './pages/home/home.component';
     MainArticicleComponent,
     MerchCardsComponent,
     SubArticiclesComponent,
-    HomeComponent
+    HomeComponent,
+    SmallCardsComponent
   ],
   imports: [
     BrowserModule,
